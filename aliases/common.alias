@@ -39,6 +39,7 @@ alias pull="git_pull"
 alias pu="git_push"
 alias pl="git_pull"
 alias gr="git restore --staged"
+alias gst="git status"
 alias show=git_show_branch_filter
 alias show_all=git_show_filter
 alias fixup=git_fixup
