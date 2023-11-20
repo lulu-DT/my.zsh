@@ -1,0 +1,15 @@
+export MYZSH=$HOME/.my.zsh
+THEME=$MYZSH/themes/lxsameer.zsh-theme
+
+# Choose the system type you want: options are gentoo, debian, mac
+export SYSTEM_TYPE="gentoo"
+
+source $MYZSH/my.zsh
+
+PROJECTS=$HOME/src/
+
+# All of your configuration goes this file
+load_overrides ~/.zshrc.override
+
+setup_highlighting
+setup_autosuggestion

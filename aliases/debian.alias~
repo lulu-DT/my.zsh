@@ -1,0 +1,109 @@
+# -----------------------------------------------------------------------------
+#    My.Zsh - My personal zsh configuration
+#    Copyright (C) 2013-2020 Sameer Rahmani <lxsameer@gnu.org>
+#
+#    This program is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License along
+#    with this program; if not, write to the Free Software Foundation, Inc.,
+#    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+# -----------------------------------------------------------------------------
+
+
+
+source
+alias p="python2.7"
+alias p3="python3.3"
+alias ac=". env/bin/activate"
+
+alias r="ruby"
+alias rr="rails"
+alias b="bundle"
+alias be="bundle exec"
+alias rs="bundle exec rails s"
+alias rc="bundle exec rails c"
+alias rk="bundle exec rake"
+
+alias e="emacs"
+alias ew="emacs -nw"
+
+alias g="git"
+alias gl="git pull"
+alias gp="git push"
+alias push="git_push"
+alias pull="git_pull"
+alias pu="git_push"
+alias pl="git_pull"
+alias gr="git restore --staged"
+
+
+alias kff="kernel_find_file"
+
+alias ls='ls --color'
+alias ll='ls -lh'
+alias la='ls -lhA'
+alias sl=ls
+
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias -- -='cd -'
+
+alias _="sudo"
+alias ag="apt-get"
+alias agu="apt-get update"
+alias agi="apt-get install "
+alias agr="apt-get remove "
+alias agp="apt-get purge "
+alias agd="apt-get dist-upgrade"
+alias ags="apt-cache search "
+alias agc="apt-cache "
+alias aps="aptitude search "
+
+alias Ps="ps aux|grep --color"
+
+alias kl="kill"
+alias kla="killall"
+
+alias f="find . -iname "
+
+
+alias m="mount "
+alias um="umount "
+
+alias ch="chmod "
+alias co="chown "
+
+alias d="docker"
+alias d-="docker-compose"
+alias dall="docker ps -a -q"
+alias drm='d stop `dall`;d rm `dall`'
+alias drmi='docker_remove_orphan_layers'
+
+alias a="apt"
+alias ai="apt install"
+alias au="apt update"
+alias n="npm"
+alias nr="npm run"
+alias y="yarn"
+alias yi="yarn add"
+alias yr="yarn run"
+
+
+alias l="lein"
+alias copy="xclip -sel clip <"
+alias x=". ~/.xinitrc"
+
+alias reload="source ~/.zshrc"
+
+alias t="terraform"
+
+alias tmux="tmux -u"
+alias r--="gtk-redshift -m randr:crtc=1"
