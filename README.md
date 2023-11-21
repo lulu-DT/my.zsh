@@ -8,7 +8,7 @@ for a lazy person like myself. :P
 Use the following command to install **My.Zsh**:
 
 ```bash
-sh -c "$(curl -fsSL https://devheroes.codes/lxsameer/my.zsh/raw/master/scripts/install.sh)"
+sh -c "$(curl -fsSL https://github.com/lulu-DT/my.zsh/tree/main/scripts/install.sh)"
 ```
 
 In order to update your copy just use `git pull` to get the latest changes.

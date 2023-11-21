@@ -60,7 +60,7 @@ main() {
     fi
   fi
 
-  env git clone --depth=1 https://devheroes.codes/lxsameer/my.zsh.git $ZSH || {
+  env git clone --depth=1 https://github.com/lulu-DT/my.zsh.git $ZSH || {
     printf "Error: git clone of My.Zsh repo failed\n"
     exit 1
   }

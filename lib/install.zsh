@@ -12,6 +12,11 @@ setup_autosuggestion() {
     source $MYZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 }
 
+setup_completions() {
+    # Load autosuggestions
+    source $MYZSH/plugins/zsh-completions/zsh-completions.zsh
+}
+
 load_overrides() {
     source $1 || touch $1
 }
